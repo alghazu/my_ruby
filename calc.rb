@@ -1,7 +1,4 @@
-puts 1.0 + 2.0
-puts 3.0 * 4.0
-puts 6.0 - 9.0
-puts 9/2
-
-puts 5 * (12-8) + -15
-puts 98 + (59872 / (13*8)) * -52
+puts 'Hello there, and what\'s your name?'
+name = gets.chomp
+puts 'Your name is ' + name + '?  What a lovely name!'
+puts 'Pleased to meet you, ' + name + '.  :)'
